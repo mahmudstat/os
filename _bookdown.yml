@@ -1,0 +1,9 @@
+book_filename: "os"
+language:
+  ui:
+    chapter_name: "নিবন্ধ "
+delete_merged_file: true
+output_dir: "docs"
+chapter_name: "নিবন্ধ "
+repo: https://github.com/mahmudstat/os
+new_session: yes
