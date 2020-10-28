@@ -1,5 +1,5 @@
 --- 
-title: "লাস্ট থ্রি মিনিটস"
+title: "অসীম সমীকরণ"
 author: "আব্দুল্যাহ আদিল মাহমুদ"
 date: "2020-10-28"
 site: bookdown::bookdown_site
@@ -13,6 +13,11 @@ description: "অসীম সমীকরণ"
 ---
 
 # বই পরিচিতি {-}
+
+<div class="figure" style="text-align: center">
+<img src="os_cover.jpg" alt="Book Cover" width="80%" />
+<p class="caption">(\#fig:cover)Book Cover</p>
+</div>
 
 ## প্রকাশনা 
 
@@ -45,8 +50,8 @@ description: "অসীম সমীকরণ"
 
 - *[অ্যা ব্রিফার হিস্ট্রি অব টাইম](https://www.rokomari.com/book/author/47631)* (২০১৭) (অনুবাদ, মূল স্টিফেক হকিং ও লিওনার্দ ম্লোডিনো)
 - *[মহাবিশ্বের সীমানা](https://www.rokomari.com/book/author/47631)* (২০১৯) 
-- *[লাস্ট থ্রি মিনিটস](https://www.rokomari.com/book/author/47631)* (২০১৯) 
 - *চন্দ্রজয়ের ৫০ বছর* (২০২০) (প্রথিতযশা কয়েকজন লেখকের সাথে যৌথভাবে) 
+- *[লাস্ট থ্রি মিনিটস](https://www.rokomari.com/book/author/47631)* (২০২১) 
 
 
 **ইমেইল:** almahmud.sbi@gmail.com
