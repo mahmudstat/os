@@ -54,7 +54,7 @@ knitr:: include_graphics("mahmud.jpg")
 
 **ইমেইল:** almahmud.sbi@gmail.com
 
-**ওয়েবসাইট:** [mahmud.bishwo.com](https://mahmud.bishwo.com)
+**ওয়েবসাইট:** [thinkermahmud.com/](https://thinkermahmud.com/)
 
 **ফেসবুক:** [mahmud.sbi](https://fb.com/mahmud.sbi)
 

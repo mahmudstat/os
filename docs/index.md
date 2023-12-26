@@ -1,7 +1,7 @@
 --- 
 title: "অসীম সমীকরণ"
 author: "আব্দুল্যাহ আদিল মাহমুদ"
-date: "2020-10-28"
+date: "2023-12-26"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
 documentclass: book
@@ -56,7 +56,7 @@ description: "অসীম সমীকরণ"
 
 **ইমেইল:** almahmud.sbi@gmail.com
 
-**ওয়েবসাইট:** [mahmud.bishwo.com](https://mahmud.bishwo.com)
+**ওয়েবসাইট:** [thinkermahmud.com/](https://thinkermahmud.com/)
 
 **ফেসবুক:** [mahmud.sbi](https://fb.com/mahmud.sbi)
 

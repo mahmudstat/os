@@ -1,0 +1,13 @@
+fig:cover
+fig:author
+fig:grandi
+পরকশন
+বষয়বসত
+লখক-পরচত
+লখকর-অননয-বই
+ভমক
+বই-কনত
+one-one-zero
+achilles-1
+achilles-2
+acrobat-ant

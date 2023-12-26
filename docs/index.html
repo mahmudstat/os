@@ -6,11 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>অসীম সমীকরণ</title>
   <meta name="description" content="অসীম সমীকরণ" />
-  <meta name="generator" content="bookdown 0.20 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.36 and GitBook 2.6.7" />
 
   <meta property="og:title" content="অসীম সমীকরণ" />
   <meta property="og:type" content="book" />
-  
   
   <meta property="og:description" content="অসীম সমীকরণ" />
   <meta name="github-repo" content="mahmudstat/l3m" />
@@ -24,7 +23,7 @@
 <meta name="author" content="আব্দুল্যাহ আদিল মাহমুদ" />
 
 
-<meta name="date" content="2020-10-28" />
+<meta name="date" content="2023-12-26" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -33,7 +32,8 @@
   
 
 <link rel="next" href="one-one-zero.html"/>
-<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -49,10 +49,16 @@
 
 
 
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 
-<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
 
 
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
@@ -70,16 +76,20 @@
 <li><a href="./">অসীম সমীকরণ</a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>বই পরিচিতি</a><ul>
-<li class="chapter" data-level="0.1" data-path="index.html"><a href="index.html#প্রকাশনা"><i class="fa fa-check"></i><b>0.1</b> প্রকাশনা</a></li>
-<li class="chapter" data-level="0.2" data-path="index.html"><a href="index.html#বিষয়বস্তু"><i class="fa fa-check"></i><b>0.2</b> বিষয়বস্তু</a></li>
-<li class="chapter" data-level="0.3" data-path="index.html"><a href="index.html#লেখক-পরিচিতি"><i class="fa fa-check"></i><b>0.3</b> লেখক পরিচিতি</a></li>
-<li class="chapter" data-level="0.4" data-path="index.html"><a href="index.html#লেখকের-অনান্য-বই"><i class="fa fa-check"></i><b>0.4</b> লেখকের অনান্য বই</a></li>
-<li class="chapter" data-level="0.5" data-path="index.html"><a href="index.html#ভূমিকা"><i class="fa fa-check"></i><b>0.5</b> ভূমিকা</a></li>
-<li class="chapter" data-level="0.6" data-path="index.html"><a href="index.html#বই-কিনতে"><i class="fa fa-check"></i><b>0.6</b> বই কিনতে</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>বই পরিচিতি</a>
+<ul>
+<li class="chapter" data-level="0.1" data-path="index.html"><a href="index.html#পরকশন"><i class="fa fa-check"></i><b>0.1</b> প্রকাশনা</a></li>
+<li class="chapter" data-level="0.2" data-path="index.html"><a href="index.html#বষয়বসত"><i class="fa fa-check"></i><b>0.2</b> বিষয়বস্তু</a></li>
+<li class="chapter" data-level="0.3" data-path="index.html"><a href="index.html#লখক-পরচত"><i class="fa fa-check"></i><b>0.3</b> লেখক পরিচিতি</a></li>
+<li class="chapter" data-level="0.4" data-path="index.html"><a href="index.html#লখকর-অননয-বই"><i class="fa fa-check"></i><b>0.4</b> লেখকের অনান্য বই</a></li>
+<li class="chapter" data-level="0.5" data-path="index.html"><a href="index.html#ভমক"><i class="fa fa-check"></i><b>0.5</b> ভূমিকা</a></li>
+<li class="chapter" data-level="0.6" data-path="index.html"><a href="index.html#বই-কনত"><i class="fa fa-check"></i><b>0.6</b> বই কিনতে</a></li>
 </ul></li>
 <li class="part"><span><b>I প্যারাডক্স</b></span></li>
 <li class="chapter" data-level="1" data-path="one-one-zero.html"><a href="one-one-zero.html"><i class="fa fa-check"></i><b>1</b> একে একে শূন্য</a></li>
+<li class="chapter" data-level="2" data-path="achilles-1.html"><a href="achilles-1.html"><i class="fa fa-check"></i><b>2</b> গ্রিক বীর গতিদানব অ্যাকিলিজ বনাম কচ্ছপ</a></li>
+<li class="chapter" data-level="3" data-path="achilles-2.html"><a href="achilles-2.html"><i class="fa fa-check"></i><b>3</b> অ্যাকিলিসের বিরুদ্ধে কচ্ছপের পাল্টা লড়াই</a></li>
+<li class="chapter" data-level="4" data-path="acrobat-ant.html"><a href="acrobat-ant.html"><i class="fa fa-check"></i><b>4</b> পিঁপড়ার দড়াবাজি ও মহাবিশ্বের সম্প্রসারণ</a></li>
 <li class="divider"></li>
 <li><a href="https://github.com/mahmudstat/os" target="blank">Published with bookdown</a></li>
 
@@ -103,28 +113,28 @@
 <div id="header">
 <h1 class="title">অসীম সমীকরণ</h1>
 <p class="author"><em>আব্দুল্যাহ আদিল মাহমুদ</em></p>
-<p class="date"><em>2020-10-28</em></p>
+<p class="date"><em>2023-12-26</em></p>
 </div>
-<div id="বই-পরিচিতি" class="section level1 unnumbered">
-<h1>বই পরিচিতি</h1>
-<div class="figure" style="text-align: center"><span id="fig:cover"></span>
+<div id="বই-পরচত" class="section level1 unnumbered hasAnchor">
+<h1>বই পরিচিতি<a href="index.html#বই-পরচত" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:cover"></span>
 <img src="os_cover.jpg" alt="Book Cover" width="80%" />
 <p class="caption">
 Figure 0.1: Book Cover
 </p>
 </div>
-<div id="প্রকাশনা" class="section level2">
-<h2><span class="header-section-number">0.1</span> প্রকাশনা</h2>
+<div id="পরকশন" class="section level2 hasAnchor" number="0.1">
+<h2><span class="header-section-number">0.1</span> প্রকাশনা<a href="index.html#পরকশন" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p><em>অসীম সমীকরণ</em> বইটি বইটি একুশে বইমেলা-২০১৯-এ তাম্রলিপি থেকে প্রকাশিত হয়।</p>
 </div>
-<div id="বিষয়বস্তু" class="section level2">
-<h2><span class="header-section-number">0.2</span> বিষয়বস্তু</h2>
+<div id="বষয়বসত" class="section level2 hasAnchor" number="0.2">
+<h2><span class="header-section-number">0.2</span> বিষয়বস্তু<a href="index.html#বষয়বসত" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>আমাদের ব্রেইন খুব শক্তিশালী একটি জিনিস। আমরা যতটা অনুভব করি তার চেয়েও অনেক অনেক বেশি। বিশ্বের সেরা সেরা সুপারকম্পিউটারগুলো এখনও ব্রেইনের মতো সহজ করে জটিল কাজ করতে পারে না। কিন্তু তবুও ব্রেইনের কিছু দুর্বলতা আছে। তার মধ্যে একটি হলো কোনোকিছু দেখে ভুল অনুমান তৈরি। কাজটা অবশ্য ব্রেইন আমাদের সুবিধার জন্যেই করে। কিন্তু সুবিধা সবসময় হয় না। যেমন ধরুন ১-১+১-১+১-১+… ধারটি অসীম পর্যন্ত চললে যোগফল কতে হতে পারে? প্রথমে মনে হবে প্লাস আর মাইনাসে কাটাকাটি গিয়ে ০ থাকবে। উত্তরটি আসলে আংশিক সঠিক। কারণ, এই ধারার উত্তর হতে পারে নানান কিছু। এমনকি হতে পারে ০.৫ও। স্বাভাবিক বুদ্ধির বিপরীত এমন কিছু প্যারাডক্স নিয়ে বইটির মূল আলোচনা। রয়েছে গণিতের নান্দনিক কিছু বাস্তব প্রয়োগও। যেমন কীভাবে গণিত ও পরিসংখ্যান কাজে লাগিয়ে ঘুষখোর ধরা যায়।</p>
 </div>
-<div id="লেখক-পরিচিতি" class="section level2">
-<h2><span class="header-section-number">0.3</span> লেখক পরিচিতি</h2>
+<div id="লখক-পরচত" class="section level2 hasAnchor" number="0.3">
+<h2><span class="header-section-number">0.3</span> লেখক পরিচিতি<a href="index.html#লখক-পরচত" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p><strong>আব্দুল্যাহ আদিল মাহমুদ</strong></p>
-<div class="figure" style="text-align: center"><span id="fig:author"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:author"></span>
 <img src="mahmud.jpg" alt="Author" width="50%" />
 <p class="caption">
 Figure 0.2: Author
@@ -136,8 +146,8 @@ Figure 0.2: Author
 <p><strong>প্রিয় শখ:</strong> নতুন কিছু শেখা (বিশেষ করে গণিত ও জ্যোতির্বিজ্ঞান), প্রোগ্রামিং, ভ্রমণ ও রাতের আকাশ পর্যবেক্ষণ।</p>
 <p><strong>পৈত্রিক নিবাস:</strong> লক্ষ্মীপুর সদর উপজেলার ঝাউডগী গ্রাম।</p>
 </div>
-<div id="লেখকের-অনান্য-বই" class="section level2">
-<h2><span class="header-section-number">0.4</span> লেখকের অনান্য বই</h2>
+<div id="লখকর-অননয-বই" class="section level2 hasAnchor" number="0.4">
+<h2><span class="header-section-number">0.4</span> লেখকের অনান্য বই<a href="index.html#লখকর-অননয-বই" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <ul>
 <li><em><a href="https://www.rokomari.com/book/author/47631">অ্যা ব্রিফার হিস্ট্রি অব টাইম</a></em> (২০১৭) (অনুবাদ, মূল স্টিফেক হকিং ও লিওনার্দ ম্লোডিনো)</li>
 <li><em><a href="https://www.rokomari.com/book/author/47631">মহাবিশ্বের সীমানা</a></em> (২০১৯)</li>
@@ -145,11 +155,11 @@ Figure 0.2: Author
 <li><em><a href="https://l3m.bishwo.com">লাস্ট থ্রি মিনিটস</a></em> (২০২১)</li>
 </ul>
 <p><strong>ইমেইল:</strong> <a href="mailto:almahmud.sbi@gmail.com" class="email">almahmud.sbi@gmail.com</a></p>
-<p><strong>ওয়েবসাইট:</strong> <a href="https://mahmud.bishwo.com">mahmud.bishwo.com</a></p>
+<p><strong>ওয়েবসাইট:</strong> <a href="https://thinkermahmud.com/">thinkermahmud.com/</a></p>
 <p><strong>ফেসবুক:</strong> <a href="https://fb.com/mahmud.sbi">mahmud.sbi</a></p>
 </div>
-<div id="ভূমিকা" class="section level2">
-<h2><span class="header-section-number">0.5</span> ভূমিকা</h2>
+<div id="ভমক" class="section level2 hasAnchor" number="0.5">
+<h2><span class="header-section-number">0.5</span> ভূমিকা<a href="index.html#ভমক" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>গণিত নিয়ে বই লিখেছি বলেই যে আমি গণিতে পাকা এমনটি ভাবার কোনো কারণ নেই। তবে আমি প্রতিনিয়ত শেখার চেষ্টা করি। শিখতে আমার ভাল লাগে। ২০১৪ সালের কথা। পরিসংখ্যানে অনার্স করতে গিয়ে গণিতের রাজ্যে ডুব দিতে হচ্ছে। কিন্তু গণিত নিয়ে খানিকটা ভীতি তখনও রয়ে গেছে। সেই সময় গণিত ম্যাগাজিন <em>পাই জিরো টু ইনফিনিটি</em> খুব ভালো চলছে। তত দিনে ব্লগ ও সোশ্যাল মিডিয়ায় টুকটাক লেখালেখি করতাম। ভাবলাম, গণিতভীতি দূর করতে হলে গণিত নিয়ে লিখতে হবে। যেই ভাবা সেই কাজ। পাইয়ের জানুয়ারি সংখ্যায় লিখলাম <em>কোন সংখ্যা কাকে দিয়ে বিভাজ্য</em>। এক থেকে এগারো সংখ্যাগুলোর বিভাজ্যতা নিয়ে। আমার প্রথম প্রকাশিত লেখা। একেবারেই সাধারণ একটি লেখা।</p>
 <p>এরপর নিয়মিত লিখতে থাকলাম পাই ম্যাগাজিনে। কিছু দিন পর ব্যাপন ম্যাগাজিনে গাণিতিক প্যারাডক্স লিখতে শুরু করলাম। আস্তে আস্তে বুঝতে পারলাম গণিত ভীতি কমে যাচ্ছে। তখন বুঝলাম, কোনো বিষয় ভালো করে জানার একটি উপায় হলো সেটা নিয়ে লেখালেখি করা। লিখতে গেলেই বাধ্য হয়ে পড়তে হয়। আর পড়তে পড়তে বিষয়টি জানা হয়ে যায়। আরেকটি বিষয়ও বুঝলাম। কেউই লেখক হয়ে জন্মান না। পড়তে পড়তে আর লিখতে লিখতেই এক সময় লেখক হয়ে ওঠেন। তরুণ লেখক হিসেবে ভাবনাগুলো অনুপ্রেরণা দিত।</p>
 <p>গণিত নিয়ে অনেকের মাঝে একটি ধারণা কাজ করে। সেটা হলো বাস্তব জীবনে গণিতের তেমন কোনো কাজ নেই। একটি জরিপ অনুসারে, ৭০% মানুষ মনে করেন বাস্তব জীবনে গণিতের কোনো ব্যবহার নেই। বন্ধুদের আড্ডায় আমরা নিজ নিজ পড়ার বিষয়কে শ্রেষ্ঠ প্রমাণ করতে সংগ্রামে নেমে পড়ি। কেউ বলেন, পদার্থবিদ্যাই মানব সভ্যতার ভিত্তি তৈরি করেছে। কারও মতে কাজটি করেছে রসায়ন। কেউ আবার কৃতিত্ব দেন চিকিৎসাবিদ্যাকে। এক্ষেত্রে গণিতকে কৃতিত্ব দেন খুব কম সংখ্যক মানুষ।</p>
@@ -168,8 +178,8 @@ Figure 0.2: Author
 <p>আব্দুল্যাহ আদিল মাহমুদ</p>
 <p>মতিঝিল, ঢাকা</p>
 </div>
-<div id="বই-কিনতে" class="section level2">
-<h2><span class="header-section-number">0.6</span> বই কিনতে</h2>
+<div id="বই-কনত" class="section level2 hasAnchor" number="0.6">
+<h2><span class="header-section-number">0.6</span> বই কিনতে<a href="index.html#বই-কনত" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>সারা দেশের বিক্রয়কেন্দ্রগুলোতে পাওয়া যাবে বইটি। পাওয়া যাবে <a href="https://www.rokomari.com/book/author/47631">রকমারি ডট কমেও</a>।</p>
 
 </div>
@@ -191,7 +201,6 @@ Figure 0.2: Author
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -210,6 +219,7 @@ gitbook.start({
 "weibo": false,
 "instapaper": false,
 "vk": false,
+"whatsapp": false,
 "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
 },
 "fontsettings": {
@@ -230,6 +240,10 @@ gitbook.start({
 "text": null
 },
 "download": ["os.pdf", "os.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
 "toc": {
 "collapse": "subsection"
 }
@@ -243,7 +257,7 @@ gitbook.start({
     var script = document.createElement("script");
     script.type = "text/javascript";
     var src = "true";
-    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
     if (location.protocol !== "file:")
       if (/^https?:/.test(src))
         src = src.replace(/^https?:/, '');

@@ -6,11 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>নিবন্ধ 1 একে একে শূন্য | অসীম সমীকরণ</title>
   <meta name="description" content="নিবন্ধ 1 একে একে শূন্য | অসীম সমীকরণ" />
-  <meta name="generator" content="bookdown 0.20 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.36 and GitBook 2.6.7" />
 
   <meta property="og:title" content="নিবন্ধ 1 একে একে শূন্য | অসীম সমীকরণ" />
   <meta property="og:type" content="book" />
-  
   
   <meta property="og:description" content="নিবন্ধ 1 একে একে শূন্য | অসীম সমীকরণ" />
   <meta name="github-repo" content="mahmudstat/l3m" />
@@ -24,7 +23,7 @@
 <meta name="author" content="আব্দুল্যাহ আদিল মাহমুদ" />
 
 
-<meta name="date" content="2020-10-28" />
+<meta name="date" content="2023-12-26" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -32,8 +31,9 @@
   
   
 <link rel="prev" href="index.html"/>
-
-<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link rel="next" href="achilles-1.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -49,10 +49,16 @@
 
 
 
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 
-<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
 
 
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
@@ -70,16 +76,20 @@
 <li><a href="./">অসীম সমীকরণ</a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>বই পরিচিতি</a><ul>
-<li class="chapter" data-level="0.1" data-path="index.html"><a href="index.html#প্রকাশনা"><i class="fa fa-check"></i><b>0.1</b> প্রকাশনা</a></li>
-<li class="chapter" data-level="0.2" data-path="index.html"><a href="index.html#বিষয়বস্তু"><i class="fa fa-check"></i><b>0.2</b> বিষয়বস্তু</a></li>
-<li class="chapter" data-level="0.3" data-path="index.html"><a href="index.html#লেখক-পরিচিতি"><i class="fa fa-check"></i><b>0.3</b> লেখক পরিচিতি</a></li>
-<li class="chapter" data-level="0.4" data-path="index.html"><a href="index.html#লেখকের-অনান্য-বই"><i class="fa fa-check"></i><b>0.4</b> লেখকের অনান্য বই</a></li>
-<li class="chapter" data-level="0.5" data-path="index.html"><a href="index.html#ভূমিকা"><i class="fa fa-check"></i><b>0.5</b> ভূমিকা</a></li>
-<li class="chapter" data-level="0.6" data-path="index.html"><a href="index.html#বই-কিনতে"><i class="fa fa-check"></i><b>0.6</b> বই কিনতে</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>বই পরিচিতি</a>
+<ul>
+<li class="chapter" data-level="0.1" data-path="index.html"><a href="index.html#পরকশন"><i class="fa fa-check"></i><b>0.1</b> প্রকাশনা</a></li>
+<li class="chapter" data-level="0.2" data-path="index.html"><a href="index.html#বষয়বসত"><i class="fa fa-check"></i><b>0.2</b> বিষয়বস্তু</a></li>
+<li class="chapter" data-level="0.3" data-path="index.html"><a href="index.html#লখক-পরচত"><i class="fa fa-check"></i><b>0.3</b> লেখক পরিচিতি</a></li>
+<li class="chapter" data-level="0.4" data-path="index.html"><a href="index.html#লখকর-অননয-বই"><i class="fa fa-check"></i><b>0.4</b> লেখকের অনান্য বই</a></li>
+<li class="chapter" data-level="0.5" data-path="index.html"><a href="index.html#ভমক"><i class="fa fa-check"></i><b>0.5</b> ভূমিকা</a></li>
+<li class="chapter" data-level="0.6" data-path="index.html"><a href="index.html#বই-কনত"><i class="fa fa-check"></i><b>0.6</b> বই কিনতে</a></li>
 </ul></li>
 <li class="part"><span><b>I প্যারাডক্স</b></span></li>
 <li class="chapter" data-level="1" data-path="one-one-zero.html"><a href="one-one-zero.html"><i class="fa fa-check"></i><b>1</b> একে একে শূন্য</a></li>
+<li class="chapter" data-level="2" data-path="achilles-1.html"><a href="achilles-1.html"><i class="fa fa-check"></i><b>2</b> গ্রিক বীর গতিদানব অ্যাকিলিজ বনাম কচ্ছপ</a></li>
+<li class="chapter" data-level="3" data-path="achilles-2.html"><a href="achilles-2.html"><i class="fa fa-check"></i><b>3</b> অ্যাকিলিসের বিরুদ্ধে কচ্ছপের পাল্টা লড়াই</a></li>
+<li class="chapter" data-level="4" data-path="acrobat-ant.html"><a href="acrobat-ant.html"><i class="fa fa-check"></i><b>4</b> পিঁপড়ার দড়াবাজি ও মহাবিশ্বের সম্প্রসারণ</a></li>
 <li class="divider"></li>
 <li><a href="https://github.com/mahmudstat/os" target="blank">Published with bookdown</a></li>
 
@@ -100,8 +110,8 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="one-one-zero" class="section level1">
-<h1><span class="header-section-number">নিবন্ধ 1</span> একে একে শূন্য</h1>
+<div id="one-one-zero" class="section level1 hasAnchor" number="1">
+<h1><span class="header-section-number">নিবন্ধ 1</span> একে একে শূন্য<a href="one-one-zero.html#one-one-zero" class="anchor-section" aria-label="Anchor link to header"></a></h1>
 <p><img src="img/grandi_series.jpg" width="80%" style="display: block; margin: auto;" /></p>
 <p>একবার শহর থেকে এক লোক গ্রামে ঘুরতে গেলেন। কিন্তু পথ হারিয়ে ফেলায় রাতে আর আসা হলো না। ওদিকে কোন আত্মীয়ও নেইযার বাসায় রাতটা কাটানো যায়। কারো বাড়িতে আশ্রয়ও পেলেন না। শেষে এক লোকতাকে এক পোড়া বাড়ির সন্ধান দিলো। ভূতে তার বিশ্বাস নেই। ভদ্রলোক সেখানেইরাতটা কাটিয়ে দিলেন। ভোরের দিকে ভূত এসে হাজির! যেন তেন ভূত নয়,ধবধবে সাদাকাপড় পরিহিত কঙ্কালসার এক ভূত। হাতে চিক চিক করছে ধারালো ছুরির ফলা। কাছে এসে সে ঘোষণা করল,আমার আস্তানায় এসেছো,মরতে হবে তোমাকে। লোকটা কাকুতি জানাল, “দেখ, আমি তোমার কোন পাকা ধানে মই দেইনি। আমার আর কোন উপায় ছিল না।”</p>
 <p>ভূত: হ্যাঁ, সুযোগ একটা তোমাকে দিতে পারি। দেখি তোমার গণিতে মাথা কেমন। আচ্ছা, বল দুইয়ে দুইয়ে কত? সময় দশ মিনিট। বলতে পারলে বেঁচে যাবে।</p>
@@ -161,31 +171,34 @@
 <p><span class="math inline">\(\frac 1 2 + \frac 1 3 + \frac 1 5 + \frac 1 7 + \frac 1 {11} + ...\)</span> অসীম পর্যন্ত</p>
 <p>প্রথম ধারাটি অসীম পর্যন্ত গেলেও আমরা যদি অসীমতম পদ বিবেচনা করি তবে, মান পাবো ০। কারণ, <span class="math inline">\(\frac{1}{\infty}=\frac 1 {\frac{1}{0}}=1 \times \frac{1}{0}=0\)</span>। অর্থাৎ, এই ধারাটিতে অসীম পদ থাকলেও তাদের একটা সসীম লক্ষ্য আছে। এরা শূন্যের দিকে যাচ্ছে। আর, এর পদগুলোর মানও কিন্তু ধীরে ধীরে, একটা ধারাবাহিকতা বজায় রেখে কমছে। ঠিক যেন, অবতল দর্পণ থেকে প্রতিফলিত বা উত্তল দর্পণ থেকে প্রতিসরিত আলোর মতো। তাই, দর্পণ বা লেন্সের মতই একে অভিসারী ধারা বলা হয়। এ ধরণের ধারা পদকে পুনর্বিন্যাস করা যাব। অভিসারী ধারার তাই সমষ্টি বের করা সম্ভব।</p>
 <p>যেমন, এই ধারার যোগফল কিন্তু ১ যা একটি সসীম সংখ্যা।</p>
-<div class="figure" style="text-align: center"><span id="fig:grandi"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:grandi"></span>
 <img src="img/grandi.jpg" alt="Guido Grandi" width="80%" />
 <p class="caption">
 Figure 1.1: Guido Grandi
 </p>
 </div>
-<p>চিত্রঃ গুইদো গ্রান্দি এই ধারাটির প্রথম সরল বিবরণ দেন</p>
+<p>চিত্র: গুইদো গ্রান্দি এই ধারাটির প্রথম সরল বিবরণ দেন<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a></p>
 <p>এবার ২য় ধারাটির দিকে তাকাই। এটা হচ্ছে মৌলিক সংখ্যাগুলোর বিপরীত সংখ্যাগুলোর সমষ্টি। এতেও অসীম পদ আছে। কিন্তু অসীমতো অসীমই। এর মান কি নির্দিষ্ট কোন কিছুর দিকে যাচ্ছে? না। তাহলে এটি অপসারী। এর কোনো লক্ষ্যই নেই। পদগুলোর মধ্যে নেই কোন ধারাবাহিক মিল। তাই, এটি অপসারী ধারা। এর যোগফল কত? জিজ্ঞেস করলে কেউ কোনো নির্দিষ্ট সংখ্যা বলতে পারবে না। বলবে, ‘অসীম’।</p>
 <p>আমাদের আলোচ্য ধারাও গন্তব্যহীন। নেই কোনো বিশেষ লক্ষ্য। যেন মাঝ দরিয়ায় হাবুডুবু খাচ্ছে, এক বার মাথা পানির উপর ভেসে উঠছে, আবার পরক্ষণেই ডুবে যাচ্ছে। তাই, এর পদগুলোকে পুনর্বিন্যাস করলে ন্যায়বিচার করা হবে না। এ জন্যেই একটি মত হচ্ছে, এর কোন সমষ্টিই নেই।</p>
 <p><img src="img/drowning.jpg" width="80%" style="display: block; margin: auto;" /></p>
 <p>গণিতবিদ সিজারো এবং অ্যাবেল আধুনিক গণিতকাজে লাগিয়ে দেখিয়েছেন, এর সমষ্টি হয় ০.৫। এটাই সবচেয়ে প্রচলিত মত। তাদেরপ্রক্রিয়াটিও পানির মতই সহজ। তাই, আজ আর সেদিকে পা বাড়ালাম না। তবে, এই প্রক্রিয়ায় অভিসারী ধারার শর্ত ভঙ্গ করা হয় না।ধারাটিকে অসীম গুণোত্তর ধারা ধরে হিসেব করলেও ০.৫ ই আসে। তোমরা সেটা আমার চেয়ে ভালোই পারো। এক বার করে ফেলো, তাহলে।</p>
-<p>ইতালিয়ান গণিতবিদ গুইদো গ্রান্দি এই ধারাটির প্রথম সরল বিবরণ দেন বলে ধারাটিকে বলা হয় গ্রান্দির ধারা।</p>
-
+</div>
+<div class="footnotes">
+<hr />
+<ol start="1">
+<li id="fn1"><p>ইতালিয়ান গণিতবিদ গুইদো গ্রান্দি এই ধারাটির প্রথম সরল বিবরণ দেন বলে ধারাটিকে বলা হয় গ্রান্দির ধারা।<a href="one-one-zero.html#fnref1" class="footnote-back">↩︎</a></p></li>
+</ol>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-<a href="index.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-
+<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="achilles-1.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -204,6 +217,7 @@ gitbook.start({
 "weibo": false,
 "instapaper": false,
 "vk": false,
+"whatsapp": false,
 "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
 },
 "fontsettings": {
@@ -224,6 +238,10 @@ gitbook.start({
 "text": null
 },
 "download": ["os.pdf", "os.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
 "toc": {
 "collapse": "subsection"
 }
@@ -237,7 +255,7 @@ gitbook.start({
     var script = document.createElement("script");
     script.type = "text/javascript";
     var src = "true";
-    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
     if (location.protocol !== "file:")
       if (/^https?:/.test(src))
         src = src.replace(/^https?:/, '');
